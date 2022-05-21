@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <!--HEADER-->
+<header>
+<div class="wraper">
+    <div class="logo">
+        <img src="img/prst_icon.png" alt="logo">
+    </div>
+    <div class="header">
+        <div class="menu1">
+
+        </div>
+        <div class="menu2">
+        <a href="">SEARCH</a>
+        <a href="">ABOUT</a>
+        <a href="">HOME</a>
+        </div>
+    </div>
+</div>
+</header>
+
+    <!-- end of header -->
+
+    <!-- MAIN -->
+
+<div class="container">
+<div class="main">
+<div class="form">
+    <h3>ISI FORM</h3>
+    <h3>UNTUK BERPARTISIPASI</h3>
+            <form action="" onsubmit="return sendtelegram()">
+                <div class="row">
+                    <div class="col1"><label for="nama">Nama :</label></div>
+                    <div class="col2">: <input type="text" name="nama" id="nama" placeholder="Nama anda" required></div>
+                </div>
+                <div class="row">
+                    <div class="col1"><label for="namasquad">Nama Squad :</label></div>
+                    <div class="col2">: <input type="text" name="namasquad" id="namasquad" placeholder="Nama Squad" required></div>
+                </div>
+                <div class="row">
+                    <div class="col1"><label for="whatsapp">Whatsapp :</label></div>
+                    <div class="col2">: <input type="text" name="whatsapp" id="whatsapp" placeholder="+62" required></div>
+                </div>
+                <div class="row">
+                    <div class="col1"><label for="telegram">Telegram</label></div>
+                    <div class="col2">: <input type="text" name="telegram" id="telegram" placeholder="@username"></div>
+                </div>  
+                <div class="row">
+                    <div class="col1"><label for="sesi">Pilih sesi</label></div>
+                    <div class="col2">: 
+                        <select name="sesi" id="sesi">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>                        
+                        <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1"><label for="payment">Tipe Pembayaran </label></div>
+                    <div class="col2">: 
+                        <select name="payment" id="payment">
+                        <option value="BCA">BCA</option>
+                        <option value="BNI">BNI</option>                        
+                        <option value="DANA">Dana</option>
+                        <option value="SHOPEE">Shopee</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1"></div>
+                    <div class="col2"><input type="submit" value="DAFTAR" id="btn"></div>
+                </div>
+            </form>
+    </tbody>
+</div>
+</div>   
+</div>
+<!-- end of main -->
+
+<!--footer-->
+<footer>
+<div class="cover">
+    <div class="footer">
+        <div class="colum1">
+            <img src="img/prst_.png" alt=""><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quas.
+        </div>
+        <div class="colum2">
+            <div class="popular">
+                <h3>SESI POPULER</h3>
+                <a href="">Sesi 3</a>
+                <a href="">Sesi 4</a>
+                <a href="">Sesi 5</a>
+            </div>
+            <div class="media">
+                <h3>Sosial media</h3>
+                <a href="">Youtube</a>
+                <a href="">Instagram</a>
+                <a href="">Facebook</a>
+
+            </div>
+            <div class="payment">
+                <h3>payment</h3>
+            </div>
+            <div class="group">
+                <h3>Join us</h3>
+                <a href="">Whatsapp Group</a>
+                <a href="">Telegram Group</a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="copyright">
+        Powered by PARASITE @2022
+    </div>
+</div>
+</footer>
+</body>
+<script src="java/sendtelegram.js"></script>
+</html>

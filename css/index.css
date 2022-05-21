@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    color: whitesmoke;
+    font-family: kanit, sans-serif;
+}
+body {
+    background-color: darkgray;
+}
+
+/*HEADER*/
+header {
+    background-color: rgb(12, 14, 29);
+    padding: 9px;
+}
+.wraper {
+    display: grid;
+    grid-template-columns: 200px auto;
+    max-width: 950px;
+    margin: auto;
+}
+.logo img {
+    max-width: 100%; max-height: auto;
+}
+.header {
+    display: grid;
+    grid-template-columns: 50% auto;
+    padding-top: 15px;
+}
+.header a {
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    float: right;
+}
+/*end of header*/
+
+/*main*/
+
+.container {
+    background-image: url("../img/pubg_bg.jpg");
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 950px;
+}
+.container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form {
+    background-color: rgb(12, 14, 29, 0.8);
+    width: 370px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+}
+.form select, option, input {
+    color: black;
+}
+input[type=text] {
+    background-color: whitesmoke;
+    color: rgba(128, 128, 128, 0.1);
+    box-sizing: border-box;
+}
+
+/*row+colum*/
+
+.col1 {
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+}
+  
+.col2 {
+    float: left;
+    width: 60%;
+    margin-top: 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*end of row+colum*/
+
+input[type=submit] {
+    background-color: rgb(1, 115, 153);
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 50px;
+}  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/*FOOTER*/
+footer {
+    background-color: rgb(12, 14, 29);
+}
+.footer {
+    max-width: 950px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+.footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding-left: 20px;
+}
+.footer h3 {
+    padding-left: 15px;
+    background-color: salmon;
+}
+.colum1 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.colum1 img{
+    max-width: 80%;
+    padding-top: 50px;
+}
+.colum2 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    padding-right: 15px;
+}
+.popular {
+    padding-right: 15px;
+}
+.payment {
+    padding-right: 15px;
+}
+
+/*copyright*/
+
+.copyright {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+    font-size: small;
+    background-color: black;
+}
