@@ -60,7 +60,7 @@ header {
 }
 input[type=text] {
     background-color: whitesmoke;
-    color: rgba(128, 128, 128, 0.1);
+    color: black;
     box-sizing: border-box;
 }
 
